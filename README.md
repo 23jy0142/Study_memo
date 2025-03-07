@@ -283,6 +283,27 @@ git show 【タグ名】
 git push origin 【タグ名】
 ```
 
+### 3.8 リモートリポジトリの管理
+```
+// リモートリポジトリの最新情報を取得
+git fetch
+
+// 設定されているリモートリポジトリの一覧を表示
+git remote
+
+// URL付きでリモートリポジトリの一覧を表示
+git remote -v
+
+// リモートリポジトリを追加
+git remote add 【名前】【リモートリポジトリURL】
+
+// リモートリポジトリを削除
+git remote remove 【名前】
+
+//リモートリポジトリの名前を変更
+git remote rename 【旧名】 【新名】
+```
+
 ## 4 各エディターでGithubと連携する
 ### 4.1 eclipseでリポジトリをクローンする
 1. Eclipseを開く
